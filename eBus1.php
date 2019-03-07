@@ -13,8 +13,8 @@ $_SESSION['txtTotal'] = $totalValue;
     
     <body> 
         
-    <style>
-        /* Style the body */
+<style>
+/* Style the body */
 body {
   background: #F6F4D2;
   font-family: Vintage;
@@ -38,8 +38,8 @@ body {
 /* Page Content */
 .content {padding:20px;}
        
-        .button {
-  background-color: #edd7bb;
+     .button {
+  background-color: #f0c749;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -51,7 +51,7 @@ body {
  
   .button:hover {opacity: 1}
 }
-    </style>
+</style>
     
    
  
@@ -105,9 +105,9 @@ body {
                 </center>
         
             <center>
-                <input type="button" name="btnCalc" id="btnCalc" onclick="calcSub()" value="Calculate"/>
-                <input type="button" name="btnClear" id="btnClear" onclick="AmountClear()" value="Clear"/>
-                <input type="submit" name="btnProceed" id="btnProceed" onclick="" value="Proceed"/>
+                <input type="button" class="button" name="btnCalc" id="btnCalc" onclick="calcSub()" value="Calculate"/>
+                <input type="button" class="button" name="btnClear" id="btnClear" onclick="AmountClear()" value="Clear"/>
+                <input type="submit" class="button" name="btnProceed" id="btnProceed" onclick="" value="Proceed"/>
             </center>
                  </div>
             </form>
@@ -157,10 +157,12 @@ body {
             }
             </script>
            
-             <div>
-          <a href="consultancy.html" class="button">Return to Main Menu</a>
-  </div>
-    </body>
+
+<a href="consultancy.html" type="button" class="button">Return to Main Menu</a>
+
+   
+</body>
+    
 </html>
 
 

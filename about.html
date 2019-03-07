@@ -17,6 +17,7 @@ and open the template in the editor.
     
         <style>
        
+/* Credit-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_style_header
 /* Style the body */
 body {
   background: #F6F4D2;
@@ -40,9 +41,11 @@ body {
 
 /* Page Content */
 .content {padding:20px;}
+
+
        
         .button {
-  background-color: #edd7bb;
+  background-color: #f0c749;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -59,32 +62,44 @@ body {
     </style>
 
     
-   <!-- Reference w3schools -->
+   <!--Credit - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible -->
     
      <div class="header">
         <h2>About Consulting</h2>
      </div>
        
     <div class="content">
-<button class="collapsible">Blockchain</button>
+<button class="collapsible button">Blockchain</button>
 <div class="content">
   <p>A blockchain is, in the simplest of terms, a time-stamped series of immutable record of data that is managed by cluster of computers not owned by any single entity. Each of these blocks of data (i.e. block) are secured and bound to each other using cryptographic principles (i.e. chain).</p>
   <center><img src="blockchain.jpeg" alt="Blockchain" align="center"></center>
 </div>
 <br></br>
-<button class="collapsible">Autonomous Things(Robots)</button>
+<button class="collapsible button">Autonomous Things(Robots)</button>
 <div class="content">
   <p>The term “autonomous things” is being used more and more in the technology world to talk about phenomena powered by the latest advancements in artificial intelligence and machine learning. Autonomous things are things that work autonomously without human guidance or direct intervention.</p>
   <center><img src="autonomous.jpeg" alt="Autonomous Things" align="center"></center>
 </div>
 <br></br>
-<button class="collapsible">Immersive Experience</button>
+<button class="collapsible button">Immersive Experience</button>
 <div class="content">
   <p>An immersive experience is an illusory environment that completely surrounds you such that you feel that you are inside it and part of it. The term is associated with technology environments that command the senses such as virtual reality and mixed reality.</p>
   <center><img src="immersive.jpeg" alt="Immersive Experiences" align="center"></center>
 </div>
     </div>
+   
+   <br></br>
+   
+   
 
+   <a href="consultancy.html" class="button">Return to Main Menu</a>
+   
+   <br></br>
+   <br></br>
+   <br></br>
+   
+   
+   
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;

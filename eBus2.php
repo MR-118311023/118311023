@@ -13,12 +13,12 @@ $_SESSION[ 'txtTotal'] = $totalValue2;
 <html>
       <head>
         <title>eBusiness 2</title>
-    </head>
+      </head>
     
-    <body>
+<body>
         
-       <style>
-                /* Style the body */
+<style>
+/* Style the body */
 body {
   background: #F6F4D2;
   font-family: Vintage;
@@ -43,7 +43,7 @@ body {
 .content {padding:20px;}
        
         .button {
-  background-color: #edd7bb;
+  background-color: #f0c749;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -55,7 +55,7 @@ body {
  
   .button:hover {opacity: 1}
 }
-    </style>
+ </style>
   
    
         <div class="form">
@@ -82,18 +82,18 @@ body {
                         
                          <tr>
                             <td>E-Mail Address</td>
-                            <td><input type="email" id="txtMail" name="txtMail" value="" required="" /></td>
+                            <td><input type="email"  id="txtMail" name="txtMail" value="" required="" /></td>
                         </tr>
                         <br></br>
                         
                         <tr>
                             <td>Pin</td>
-                            <td><input type="password" maxlength="4" id="txtPin" name="txtPin" value="" required="" /></td>
+                            <td><input type="password"  maxlength="4" id="txtPin" name="txtPin" value="" required="" /></td>
                         </tr>
                         
                         
                         <tr>
-                            <td><input type="hidden" id="txtTotal" name="txtTotal" value="<?php echo $totalValue;?>"/></td>
+                            <td><input type="hidden"  id="txtTotal" name="txtTotal" value="<?php echo $totalValue;?>"/></td>
                         </tr>
                         
                     </table>
@@ -101,10 +101,10 @@ body {
                 
                 <center>
                     
-                    <input type="submit" name="btnContinue" id="btnContinue" onclick="" value="Continue"/>
+                    <input type="submit" class="button" name="btnContinue" id="btnContinue" onclick="" value="Continue"/>
                 </center>
-</div>
-        
+                
+               </div>
             </div>
          </form>
         </body>

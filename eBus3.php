@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-        <html>
+<html>
             
-                <head>
+    <head>
     <meta charset="utf-8" />
         <title>eBusiness 3</title>
     </head>
    
-          <body>
+ <body>
               
-               <style>
+<style>
           /* Style the body */
 body {
   background: #F6F4D2;
@@ -46,19 +46,14 @@ body {
  
   .button:hover {opacity: 1}
 }
-    </style>
+ </style>
     
     
-    <div class ="header">
-                     
-                  
-              <h1> Payment Receipt</h1>
-              
-                </div>
+<div class ="header">
+<h1> Payment Receipt</h1>
+ </div>
                 
-                
-              
-    <div class ="content"
+ <div class ="content"
          
          <center>
              <?php
@@ -78,7 +73,7 @@ body {
                 ?>
         </center>
          
-          </div>
-    </body>
-        </html>
+ </div>
+ </body>
+ </html>
 

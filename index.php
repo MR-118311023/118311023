@@ -3,10 +3,13 @@
 
 <!-- Reference hover buttons -->
 <html>
-<head>
+    <head>
+        <title>Home Page</title>
+    </head>
 
 <style>
-    
+ 
+    /*credit(hover buttons) - https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_hover*/
     /* Style the body */
 body {
   background: #F6F4D2;
@@ -30,6 +33,8 @@ body {
 
 /* Page Content */
 .content {padding:20px;}
+
+ /*credit(hover buttons) - https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_hover*/
 
 .button {
   background-color: #4CAF50; /* Green */
@@ -56,19 +61,15 @@ body {
   background-color: #F0C479;
   color: white;
 }
-
-
-
-
 </style>
-</head>
+
 <body>
-
- <div class="header">
+    
+<div class="header">
 <h1>Home</h1>
- </div>
+</div>
 
-    <br></br>
+<br></br>
 
 <div class="content">
 <a href="tiltedpage_scroll_demo.html"><button class="button button1">Interests</button>
