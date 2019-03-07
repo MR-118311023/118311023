@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    
+       
+    <head>
+        <title>About Consulting</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+    
+        <style>
+       
+/* Style the body */
+body {
+  background: #F6F4D2;
+  font-family: Vintage;
+  color: #28262C;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+/* Header/Logo Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #F0C479;
+  color: #28262C;
+  font-size: 20px;
+}
+
+
+/* Page Content */
+.content {padding:20px;}
+       
+        .button {
+  background-color: #edd7bb;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+ 
+  .button:hover {opacity: 1}
+  
+  
+}
+    </style>
+
+    
+   <!-- Reference w3schools -->
+    
+     <div class="header">
+        <h2>About Consulting</h2>
+     </div>
+       
+    <div class="content">
+<button class="collapsible">Blockchain</button>
+<div class="content">
+  <p>A blockchain is, in the simplest of terms, a time-stamped series of immutable record of data that is managed by cluster of computers not owned by any single entity. Each of these blocks of data (i.e. block) are secured and bound to each other using cryptographic principles (i.e. chain).</p>
+</div>
+<br></br>
+<button class="collapsible">Autonomous Things(Robots)</button>
+<div class="content">
+  <p>The term “autonomous things” is being used more and more in the technology world to talk about phenomena powered by the latest advancements in artificial intelligence and machine learning. Autonomous things are things that work autonomously without human guidance or direct intervention.</p>
+</div>
+<br></br>
+<button class="collapsible">Immersive Experience</button>
+<div class="content">
+  <p>An immersive experience is an illusory environment that completely surrounds you such that you feel that you are inside it and part of it. The term is associated with technology environments that command the senses such as virtual reality and mixed reality.</p>
+</div>
+    </div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
+
+        
+        
+
