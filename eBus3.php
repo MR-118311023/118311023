@@ -49,17 +49,7 @@ body {
     </style>
     
     
-
-    
-       
-  
-                
-          
-       
-        
-          
-                
-                <div class ="header">
+    <div class ="header">
                      
                   
               <h1> Payment Receipt</h1>
@@ -67,19 +57,18 @@ body {
                 </div>
                 
                 
-          
-                     <div class ="content"
-            <center>
-                
-                <?php
+              
+    <div class ="content"
+         
+         <center>
+             <?php
                 
    
                 session_start() ;
                 $totalValue2 = $_POST['txtTotal'];
                 $fullNameValue = $_POST['txtName'] ;
                 
-                
-                echo  "The name is : " ,$fullNameValue.", ";
+                echo "The name is : " ,$fullNameValue.", ";
                 
                 echo "<br></br>";
                 
@@ -87,10 +76,9 @@ body {
              
                 
                 ?>
-    
-            </center>
-                
-            </div>
+        </center>
+         
+          </div>
     </body>
         </html>
 

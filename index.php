@@ -68,15 +68,12 @@ body {
 <h1>Home</h1>
  </div>
 
-
-<br></br>
-<br></br>
-<br></br>
+    <br></br>
 
 <div class="content">
 <a href="tiltedpage_scroll_demo.html"><button class="button button1">Interests</button>
-<a href="cv.html"><button class="button button1">CV</button>
 <a href="consultancy.html"><button class="button button1">Consulting Services</button>
+<a href="cv.html"><button class="button button1">CV</button>
 </div>
 
 </body>
