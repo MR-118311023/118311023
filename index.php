@@ -80,8 +80,8 @@ body {
 <br></br>
 <br></br>
 
-<a href=""<button class="button button1">Github</button>
- <a href=""<button class="button button1">Heroku</button>
+<a href="https://github.com/MR-118311023/118311023"<button class="button button1">Github</button>
+ <a href="https://mr-phpproject10.herokuapp.com/"<button class="button button1">Heroku</button>
         
 </body>
 </html>
