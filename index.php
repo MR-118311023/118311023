@@ -77,5 +77,11 @@ body {
 <a href="cv.html"><button class="button button1">CV</button>
 </div>
 
+<br></br>
+<br></br>
+
+<a href=""<button class="button button1">Github</button>
+ <a href=""<button class="button button1">Heroku</button>
+        
 </body>
 </html>
